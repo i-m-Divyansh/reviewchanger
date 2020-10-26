@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-color: #bfe9ff;
+    padding: 3%;
+}
+
+.review-card{
+    width: 90%;
+    padding: 5%;
+    min-height: 450px;
+    background-color: white;
+}
+
+@media screen and (min-width:768px)
+{
+    .review-card{
+        width: 50%;
+    }
+}
+
+.img-container{
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+#person-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.sm-btn{
+    color: black;
+    font-weight: 500;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    background-color:  #26a0da;
+}
+.sm-btn:active{
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    background-color:  #26a0da;
+}
+
+.prevnext-btn{
+    color:#26a0da;
+}
